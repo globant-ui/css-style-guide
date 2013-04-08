@@ -112,10 +112,6 @@ Source: [SMACSS on formatting](https://smacss.com/book/formatting)
 
 A Module defines the appearance and positing of its elements, nothing else.  If a module were to define a specific width then it would not be flexible enough to be included in multiple locations of different dimensions.
 
-### Layout classes should be prefixed with l
-
-This makes the separation between module and layout clear.
-
 Source: [SMACSS on layout](http://smacss.com/book/type-layout)
 
 ## Modules
