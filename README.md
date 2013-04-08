@@ -2,7 +2,7 @@
 ==================
 
 *A mostly reasonable approach to CSS*
-
+*Based on the excellent work done by Richard Powell [here](https://github.com/byrichardpowell/CSS-Style)*
 
 ## <a name='TOC'>Table of Contents</a>
 
