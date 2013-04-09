@@ -48,9 +48,14 @@ HTTP Requests are expensive and slow the rendering of a page, so minimise them. 
 
 ### Always Minimise CSS
 
-Minifying code can save up to 60% on a files size.  Use a tool like [CodeKit](http://incident57.com/codekit/) to manage this and its easy-peasy.
+Minifying code can save up to 60% on a files size.  Use a tool like [http://yui.github.io/yuicompressor/](YUI Compressor) or [https://github.com/gruntjs/grunt-contrib-cssmin](Grunt CSS Min) together with build tools such as [](Grunt) or [maven.apache.org/](Maven) to manage this and its easy-peasy.
 
 Source: [Google Page Speed on Minifying CSS](https://developers.google.com/speed/docs/best-practices/payload#MinifyCSS)
+
+### Always use a CSS Linter
+
+Using a CSS Linter will make obvious whenever a rule is not matching the coding standard and best practices. It will make developers know something is wrong even before looking at it in the browser.
+When using Sublime Text a great solution is to use [https://github.com/SublimeLinter/SublimeLinter](SublimeLinter), there are other options for other IDEs and it can also be used online via [http://csslint.net/]
 
 ### Never Use Single line formatting
 
