@@ -55,7 +55,7 @@ Source: [Google Page Speed on Minifying CSS](https://developers.google.com/speed
 ### Always use a CSS Linter
 
 Using a CSS Linter will make obvious whenever a rule is not matching the coding standard and best practices. It will make developers know something is wrong even before looking at it in the browser.
-When using Sublime Text a great solution is to use [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter), there are other options for other IDEs and it can also be used online via [http://csslint.net/]
+When using Sublime Text a great solution is to use [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter), there are other options for other IDEs and it can also be used online via http://csslint.net/
 
 ### Never Use Single line formatting
 
