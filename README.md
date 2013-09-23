@@ -4,9 +4,7 @@
 *A mostly reasonable approach to CSS*
 *Based on the excellent work done by Richard Powell [here](https://github.com/byrichardpowell/CSS-Style)*
 
-## <a name='TOC'>Table of Contents</a>
-
-#Work in progress.
+## General
 
 ### Minimise the use of element selectors
 
@@ -66,6 +64,67 @@ Source: [SMACSS on formatting](https://smacss.com/book/formatting)
 ### Use dashes to separate words
 
 CSS properties do not use underscores or camel case, they use dashes.  Do the same with classes
+
+## Coding Style
+
+### General coding guidelines
+
+* Use soft-tabs with a two space indent.
+* Put spaces after `:` in property declarations.
+* Put spaces before `{` in rule declarations.
+* Use hex color codes #000 unless using rgba.
+
+Syntax example:
+
+```css
+.styleguide-format {
+  border: 1px solid #0F0;
+  color: #000;
+  background: rgba(0,0,0,0.5);
+}
+```
+
+### Multiple selectors should each be on a single line
+
+```css
+.my-class,
+.our-class,
+.your-class {
+  border: 1px solid #0F0;
+}
+```
+
+### Each property should be on a new line
+
+```css
+/* BAD */
+.my-class { border: 1px solid #0F0; color: #F00; margin-top: 20px; }
+
+/* GOOD */
+.my-class {
+  border: 1px solid #0F0;
+  color: #F00;
+  margin-top: 20px;
+}
+```
+### Use hyphens to concatenate class names
+
+E.g. `.demo-image` not `.demoImage` or `.demo_image`
+
+### Use a semicolon after every declaration
+```css
+/* BAD */
+.my-class {
+  border: 1px solid #0F0;
+  color: #F00
+}
+
+/* GOOD */
+.my-class {
+  border: 1px solid #0F0;
+  color: #F00;
+}
+```
 
 ## Cross Browser
 
